@@ -1,0 +1,82 @@
+x=int(input("enter the number"))
+if x%4==0:
+  print("it is even number")
+else:
+  print("it is odd number")#if elif else
+mark=int(input("enter the marks"))
+if mark>=90:
+  print("excellent")
+elif mark>=80:
+  print("good")
+elif mark>=70:
+  print("average")
+else:
+  print("fail")# if condition
+a=int(input("enter the age"))
+if a>=18:
+  print("eligible to vote")# if elif condition
+a=int(input("enter the number"))
+if a>90:
+  print("the number is positive")
+elif a<60:
+  print("the number is negative")
+else:
+  print("the number is zero")# if number is positive or negative or zero
+a=float(input("enter the number"))
+if a>0:
+  print("positive number")
+if a<0:
+  print("negative number")
+else:
+  print("it is zero")# largest two numbers
+num1=int(input("enter first number"))
+num2=int(input("enter second number"))
+if num1>num2:
+  print(num1,"it is largest number")
+elif num1<num2:
+  print(num2,"it is largest number")
+else:
+  print("both number equal")# largest three numbers
+num1=int(input("enter the first number"))
+num2=int(input("enter the second number"))
+num3=int(input("enter the third number"))
+if num1<num2:
+  print(num2,"the largest number is")
+elif num2<num3:
+  print(num3,"the largest number is")
+else:
+  print(num1,"the largest number is")for a in range(1,10):
+  if a%2==0:
+    print("even number")
+  else:
+    print("odd number")# leap year
+year=int(input("enter the year"))
+if year%4==0:
+  print(year,"is a leap year")
+else:
+  print(year,"is a leap year")# voting eligibility
+a=int(input("enter the age"))
+if a>=18:
+  print("eligibility for voting")
+else:
+  print("not eligibility for voting")# grade calculation
+mark=int(input("enter the marks"))
+if mark>=90:
+  print("grade a")
+elif mark>=75:
+  print("grade b")
+elif mark>=50:
+  print("grade c")
+else:
+  print("fail")
+alpha=str(input("enter the alphabet"))
+if alpha in "aeiou":
+  print("the alphabet is a vowel")
+else:
+  print("the alphabet is a consonant")num=int(input("enter a number:"))
+if num%3==0:
+  print(num,"is divisible by both 3 and 5")
+elif num%5==0:
+  print(num,"is divisible by both 3 and 5")
+else:
+  print(num,"is not divisible by both 3 and 5")

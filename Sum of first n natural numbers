@@ -1,0 +1,7 @@
+n = int(input("enter the number :"))
+sum=0
+s = 1
+while s <= n:
+sum=sum+s
+s = s + 1
+print("the sum of first",n,"natural number is:",sum)

@@ -1,0 +1,6 @@
+#while loop 1 to 10
+r = 10
+while r >= 2:
+print(r)
+r=r-2
+#for loop 1to20 multiplie

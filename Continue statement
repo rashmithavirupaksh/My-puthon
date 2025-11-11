@@ -1,0 +1,4 @@
+#for loop 1to20 multiplies of 3
+for r in range(1,23):
+if r%4 == 0:
+continue

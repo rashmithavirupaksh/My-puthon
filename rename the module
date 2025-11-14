@@ -1,0 +1,3 @@
+#rename the module
+import math as mamatha
+mamatha.sqrt(10)
